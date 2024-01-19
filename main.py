@@ -26,5 +26,5 @@ def home(city_name):
     
     return jsonify(weather)
 
-# if __name__ == "__main__":
-#     app.run()
+if __name__ == "__main__":
+    app.run()
